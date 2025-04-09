@@ -19,4 +19,12 @@ public class Customer {
     public String toString() {
         return name;
     }
+
+    public void addBook(Book book){
+        boughtBooks.add(book);
+    }
+
+    public List<Book> getBoughtBooks() {
+        return boughtBooks;
+    }
 }
